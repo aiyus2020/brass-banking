@@ -137,3 +137,22 @@ background: #FFFFFF;
     gap: 10px;
     padding-top: 100px;
 }
+.speed_img{
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.speed_img:hover{
+cursor: pointer;
+scale: 0.9;
+}
+.bounce-4 {
+    animation-name: bounce-4;
+    animation-timing-function: ease;
+}
+@keyframes bounce-4 {
+    0%   { transform: scale(1,1)    translateY(0); }
+    10%  { transform: scale(1.1,.9) translateY(0); }
+    30%  { transform: scale(.9,1.1) translateY(-10px); }
+    50%  { transform: scale(1,1)    translateY(0); }
+    100% { transform: scale(1,1)    translateY(0); }
+}

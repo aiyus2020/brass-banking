@@ -14,7 +14,7 @@ const Financial = () => {
      
       <div className="financial_flex">
         <div className="speed">
-          <div className="speed_img">
+          <div className="speed_img bounce-4 " >
             <img src={arroww} alt="speed"/>
           </div>
           <div className="speed_text">
@@ -27,7 +27,7 @@ const Financial = () => {
           </div>
         </div>
         <div className="speed">
-        <div className="speed_img">
+        <div className="speed_img bounce-4 " >
             <img src={lock} alt="security"/>
           </div>
           <div className="speed_text">
@@ -40,7 +40,7 @@ const Financial = () => {
           </div>
         </div>
         <div className="speed">
-        <div className="speed_img">
+        <div className="speed_img bounce-4 ">
             <img src={hand} alt="support"/>
           </div>
           <div className="speed_text">
