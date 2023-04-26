@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Hearder_logo from "../brassImg/Rectangle 1.svg";
+import Brassbutton from "../button/brassbutton";
 
 export default class Header extends Component {
   render() {
@@ -11,6 +12,7 @@ export default class Header extends Component {
           </div>
 
           <div className="header_left_text">
+           
             <p>Industry</p>
             <p>Customers</p>
             <p>Capital</p>
@@ -19,9 +21,19 @@ export default class Header extends Component {
         </div>
 
         <div className="header_right">
+            <div className="right_text">
             <p>Resources</p>
             <p>Login</p>
-            <button>button</button>
+            </div>
+           
+            <div>
+            <Brassbutton 
+            text="Open an account"
+                bck= 'var(--btncol)'
+                color="white" />
+            </div>
+           
+            
         </div>
       </header>
     );
