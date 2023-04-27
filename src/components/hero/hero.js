@@ -31,7 +31,7 @@ const Hero = () => {
         <div className="hero_right_img">
             <img src={woman} alt="woman_video"/>
         </div>
-        <div className="hero_play">
+        <div className="hero_play" onClick={()=>{} }>
             <div className="hero_playbtn">
                 <img src={solid} alt="play"/>
             </div>
