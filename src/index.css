@@ -191,6 +191,6 @@ color: #000000;
 .needs_left{
     display: flex;
     flex-direction: column;
-    gap: 41px;
+    gap: 40px;
     
 }
