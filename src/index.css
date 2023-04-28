@@ -191,6 +191,19 @@ color: #000000;
 .needs_left{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 50px;
+    color: #8F96A3;
+    cursor: pointer;
+    padding-top: 15px;
+}
+.active{
+    color: #000000;
+    border-left: 3px solid #0bce5a;
+    transition: 0.5s ease;
+    cursor: pointer;
     
+    padding:  10px 5px;
+}
+.myneeds{
+    padding:  10px 0;
 }
