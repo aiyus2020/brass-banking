@@ -93,7 +93,9 @@ const SwiperComponent = () => {
           </div>
         </div>
       </SwiperSlide>
+     
     </Swiper>
+  
   );
 };
 
