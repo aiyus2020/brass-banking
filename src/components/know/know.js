@@ -19,7 +19,7 @@ function ShowHideDivs() {
         onClick={() => handleUpClick('div1')}
         style={{ display: showDiv === 'div1' ? 'none' : 'block' }}
       ></i>
-      <div style={{ display: showDiv === 'div1' ? 'block' : 'none' }}>
+      <div style={{ display: showDiv === 'div1' ? 'block' : 'none'}}>
         This is the first div that will be shown or hidden.
       </div>
       <i

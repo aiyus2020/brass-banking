@@ -346,3 +346,8 @@ font-size: 45px;
     .resources_top h1{
         font-size: 45px;
     }
+    .fa-chevron-down{
+        transition: .6s ease;
+        color: #0bce5a;
+    }
+   
