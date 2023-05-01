@@ -321,12 +321,14 @@ font-size: 45px;
     .resources_container{
         width: 100%;
         padding:  100px;
+        position: relative;
     }
     .bottom_img{
-        width:  350px;;
+        width:  350px;
     }
     .bottom_img img{
         width: 100%;
+        cursor: pointer;
     }
     .bottom_img h4{
         padding-top: 20px;

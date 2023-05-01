@@ -8,6 +8,7 @@ import Intergration from "./components/swipper/intergration";
 import Manage from "./components/manage/manage";
 import Support from "./components/support/support";
 import Resources from "./components/resources/resources";
+import ShowHideDivs from "./components/know/know";
 function App() {
   return (
     <div>
@@ -21,6 +22,7 @@ function App() {
       <Manage />
       <Support />
       <Resources />
+      <ShowHideDivs/>
     </div>
   );
 }
