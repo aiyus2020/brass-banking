@@ -52,51 +52,83 @@ function ShowHideDivs() {
           className="know_right_flex"
           style={{ background: showDiv === "div2" ? "#1A1C1F" : "black" }}
         >
-            <h3>Who can sign up to Brass?</h3>
-            <div> <i
-            className="fa fa-chevron-up"
-            onClick={() => handleUpClick("div2")}
-            style={{ display: showDiv === "div2" ? "none" : "block" }}
-          ></i>
-
-          <i
-            className="fa fa-chevron-down"
-            onClick={handleDownClick}
-            style={{ display: showDiv === "div2" ? "block" : "none" }}
-          ></i></div>
-          
-        </div>
-        <div className="know_display" style={{ display: showDiv === "div2" ? "block" : "none" }}>
-            This is the second div that will be shown or hidden.
+          <h3>How much do I pay to sign up at Brass?</h3>
+          <div>
+            {" "}
+            <i
+              className="fa fa-chevron-up"
+              onClick={() => handleUpClick("div2")}
+              style={{ display: showDiv === "div2" ? "none" : "block" }}
+            ></i>
+            <i
+              className="fa fa-chevron-down"
+              onClick={handleDownClick}
+              style={{ display: showDiv === "div2" ? "block" : "none" }}
+            ></i>
           </div>
-
-        <i
-          className="fa fa-chevron-up"
-          onClick={() => handleUpClick("div3")}
-          style={{ display: showDiv === "div3" ? "none" : "block" }}
-        ></i>
-        <div style={{ display: showDiv === "div3" ? "block" : "none" }}>
-          This is the third div that will be shown or hidden.
         </div>
-        <i
-          className="fa fa-chevron-down"
-          onClick={handleDownClick}
+        <div
+          className="know_display"
+          style={{ display: showDiv === "div2" ? "block" : "none" }}
+        >
+          You do not pay for signing up for an account at Brass{" "}
+        </div>
+
+        <div
+          className="know_right_flex"
+          style={{ background: showDiv === "div3" ? "#1A1C1F" : "black" }}
+        >
+          <h3>What do I need to open an account?</h3>
+          <div>
+            <i
+              className="fa fa-chevron-up"
+              onClick={() => handleUpClick("div3")}
+              style={{ display: showDiv === "div3" ? "none" : "block" }}
+            ></i>
+
+            <i
+              className="fa fa-chevron-down"
+              onClick={handleDownClick}
+              style={{ display: showDiv === "div3" ? "block" : "none" }}
+            ></i>
+          </div>
+        </div>
+        <div
+          className="know_display"
           style={{ display: showDiv === "div3" ? "block" : "none" }}
-        ></i>
-
-        <i
-          className="fa fa-chevron-up"
-          onClick={() => handleUpClick("div4")}
-          style={{ display: showDiv === "div4" ? "none" : "block" }}
-        ></i>
-        <div style={{ display: showDiv === "div4" ? "block" : "none" }}>
-          This is the fourth div that will be shown or hidden.
+        >
+          You will need government-issued IDs (Including BVN) and your company's
+          incorporation documents.{" "}
         </div>
-        <i
-          className="fa fa-chevron-down"
-          onClick={handleDownClick}
+        <div
+          className="know_right_flex"
+          style={{ background: showDiv === "div4" ? "#1A1C1F" : "black" }}
+        >
+          <h3>What do I need to open an account?</h3>
+          <div>
+            <i
+              className="fa fa-chevron-up"
+              onClick={() => handleUpClick("div4")}
+              style={{ display: showDiv === "div4" ? "none" : "block" }}
+            ></i>
+
+            <i
+              className="fa fa-chevron-down"
+              onClick={handleDownClick}
+              style={{ display: showDiv === "div4" ? "block" : "none" }}
+            ></i>
+          </div>
+        </div>
+
+        <div
+          className="know_display"
           style={{ display: showDiv === "div4" ? "block" : "none" }}
-        ></i>
+        >
+          We have introduced Two factor Authentication(2FA) for an extra level
+          of security. This authentication is done using digital OTP apps like
+          Google authenticator and Authy instead of hackable channels such as
+          the SMS.
+        </div>
       </div>
     </div>
   );

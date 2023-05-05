@@ -380,6 +380,7 @@ padding: 24px;
   height: 106px;
   align-items: center;
   border-bottom: .5px solid #1a1c1f;
+  cursor: pointer;
 }
 .know_right {
   width: 573px;
