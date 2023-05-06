@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Start from "./start";
 import Socials from "./socials";
+import Footer from "./footer";
+
 function ShowHideDivs() {
   const [showDiv, setShowDiv] = useState("");
 
@@ -135,6 +137,7 @@ function ShowHideDivs() {
     </div>
     <Start/>
     <Socials/>
+    <Footer/>
     </div>
     
   );

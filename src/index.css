@@ -428,3 +428,34 @@ font-size: 45px;
 .socials_fade{
     color: #50555E;;
 }
+.footer_container{
+    padding: 100px;
+    background: #060809;
+    color: #ffffff;
+}
+.footer_logo_flex{
+    display: flex;
+    align-items: center;
+   
+}
+.footer_button{
+    display: flex;
+gap: 16px;
+padding-top: 20px;
+}
+.footer_button button{
+    background: #1A1C1F;
+border-radius: 8px;
+color: #ffffff;
+display: flex;
+align-items: center;
+gap: 9px;
+padding: 16px;
+cursor: pointer;
+border: none;
+}
+.footer_text{
+    width: 655px;
+    padding-top: 60px;
+    font-size: 15px;
+}
