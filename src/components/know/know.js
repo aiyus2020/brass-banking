@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-
+import Start from "./start";
+import Socials from "./socials";
 function ShowHideDivs() {
   const [showDiv, setShowDiv] = useState("");
 
@@ -12,7 +13,8 @@ function ShowHideDivs() {
   };
 
   return (
-    <div className="know_container">
+    <div>
+<div className="know_container">
       <div className="know_left">
         <h1>Some of the things you may want to know</h1>
         <h4>We answered questions so you don’t have to ask them.</h4>
@@ -131,6 +133,10 @@ function ShowHideDivs() {
         </div>
       </div>
     </div>
+    <Start/>
+    <Socials/>
+    </div>
+    
   );
 }
 

@@ -391,3 +391,40 @@ padding: 24px;
   padding-bottom: 16px;
   background: #1a1c1f;
 }
+.start_container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: #060809;
+    padding: 100px;
+gap: 16px;
+color: #ffffff;
+}
+.start_p{
+    width: 561px;
+    padding-bottom: 30px;
+    font-weight: 400;
+font-size: 18px;
+}
+.start_container h1{
+    font-weight: 700;
+font-size: 45px;
+}
+.socials_container{
+    display: flex;
+    font-size: 15px;
+   
+    background: #060809;
+    color: #ffffff;
+    padding: 100px;
+}
+.social_flex{
+    width: 400px;
+}
+.social_flex p{
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.socials_fade{
+    color: #50555E;;
+}
